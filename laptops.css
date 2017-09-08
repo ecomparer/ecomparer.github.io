@@ -7,7 +7,7 @@ html {
 }
 /* set maximum and minimum widths for the body and centre within the viewprt */
 body {
-    background-image: url('mountain.jpg');
+
     font-family: sans-serif
    margin: 0px;
     max-width: 1024px;
