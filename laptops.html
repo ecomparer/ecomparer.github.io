@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Laptops</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>Laptops</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav>
+<ul>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\index.html">Home</a></li>
+<li class="selected">Laptops</li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\phones.html">Phone</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <img src="apple.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Apple Macbooks</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <img src="asus.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Asus Laptops</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <img src="lenovo.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Lenovo Laptops</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <img src="hp.jpg" style="width:100%" height="400px">
+    <div class="text">Compare HP Laptops</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <img src="dell.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Dell Laptops</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>HP</h2>
+<p><img class="small" src="hp.jpg" alt="HP Laptops"/></p>
+    
+<p>The Hewlett-Packard Company (commonly referred to as HP) or shortened to Hewlett-Packard (/ˈhjuːlɪt ˈpækərd/ HEW-lit PAK-erd) was an American multinational information technology company headquartered in Palo Alto, California. It developed and provided a wide variety of hardware components as well as software and related services to consumers, small- and medium-sized businesses (SMBs) and large enterprises, including customers in the government, health and education sectors.
+
+The company was founded in a one-car garage in Palo Alto by William "Bill" Redington Hewlett and David "Dave" Packard, and initially produced a line of electronic test equipment. HP was the world's leading PC manufacturer from 2007 to Q2 2013, after which Lenovo came to rank ahead of HP.</p>
+    <p><A HREF="hp.html">CHECK OUT HP LAPTOPS HERE....</A></p>
+</section>
+<section>
+<h2>Apple</h2>
+<p><img class="small" src="apple.jpg" alt="Apple Macbooks"/></p>
+    <p>The MacBook is a brand of notebook computers manufactured by Apple Inc. from May 2006 to February 2012, and relaunched in 2015. It replaced the iBook series and 12-inch PowerBook series of notebooks as a part of the Apple-Intel transition from PowerPC. Positioned as the low end of the MacBook family, below the premium ultra-portable MacBook Air and the powerful MacBook Pro, the MacBook was aimed at the consumer and education markets. It was the best-selling Macintosh ever. For five months in 2008, it was the best-selling laptop of any brand in US retail stores. Collectively, the MacBook brand is the "world's top-selling line of premium laptops."</p>
+    <p><A HREF="apple.html">CHECK OUT Apple Macboks HERE....</A></p>
+</section>
+<section>
+<h2>Dell</h2>
+<p><img class="small" src="dell.jpg" alt="Dell Laptops"/></p>
+    <p>Dell Inc. (stylized as DELL) is a multinational computer technology company based in Round Rock, Texas and, along with Dell EMC, is a subsidiary of Dell Technologies, one of the largest technology companies in the world with 138,000 employees. Dell manufactures, sells, repairs, and supports personal computers (PCs), servers, data storage devices, network switches, computer software, computer peripherals, high-definition televisions, cameras, printers, and electronics built by other manufacturers. The company is well known for its innovations in supply chain management and e-commerce, particularly its direct-sales model and its "build-to-order" or "configure to order" approach to manufacturing—delivering individual PCs configured to customer specifications.</p>
+    <p><A HREF="dell.html">CHECK OUT Dell LAPTOPS HERE.....</A></p>
+</section>
+<section>
+<h2>Lenovo</h2>
+<p><img class="small" src="lenovo.jpg" alt="HP Laptops"/></p>
+    <p>Lenovo Group Ltd. or Lenovo PC International or shortened as Lenovo is a Chinese multinational technology company with headquarters in Beijing, China and Morrisville, North Carolina. It designs, develops, manufactures and sells personal computers, tablet computers, smartphones, workstations, servers, electronic storage devices, IT management software, and smart televisions. Since 2013, Lenovo is the world's largest personal computer vendor by unit sales. It markets the ThinkPad line of notebook computers, IdeaPad and Yoga lines of notebook laptops, and the IdeaCentre and ThinkCentre lines of desktops.</p>
+    <p><A HREF="lenovo.html">CHECK OUT Lenovo LAPTOPS HERE....</A></p>
+</section>
+<section>
+<h2>Asus</h2>
+    
+<p><img class="small" src="asus.jpg" alt="Asus Laptops"/></p>
+    <P>AsusTek Computer Inc. (stylised as ASUSTeK or ΛSUS) is a Taiwanese multinational computer and phone hardware and electronics company headquartered in Beitou District, Taipei, Taiwan. Its products include desktops, laptops, netbooks, mobile phones, networking equipment, monitors, WIFI routers, projectors, motherboards, graphics cards, optical storage, multimedia products, peripherals, wearables, servers, workstations, and tablet PCs. The company is also an original equipment manufacturer (OEM).
+
+Asus is the world's 4th-largest PC vendor by 2015 unit sales.</P>
+    <p><A HREF="asus.html">CHECK OUT Asus LAPTOPS HERE....</A></p>
+</section>
+    <section>
+        <h2>Gaming Laptops</h2>
+        <p><image class="small" src="gaming.jpg" alt="gaming Laptops"/></p>
+        <p> A gaming computer is a personal computer designed for playing computationally demanding video games. Due to the integration of common hardware components onto the motherboard since the 1990s, a modern gaming computer is comparable to a mainstream computer with the addition of a performance-oriented video card. Gaming computers are often associated with enthusiast computing due to an overlap in interests; however, while a gaming PC is built to achieve performance for actual gameplay, enthusiast PCs are built to maximize performance, using games as a real application benchmark. 
+            <p><A HREF="gaming.html">CHECK OUT Gaming LAPTOPS HERE....</A></p>
+    </section>
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+     <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>

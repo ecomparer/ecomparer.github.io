@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Asus</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>Asus ZenBooks</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav class="nav-class">
+<ul>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\index.html">Home</a></li>
+<li class="laptop"><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\laptops.html">Laptops</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\phones.html">Phone</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <img src="gaming.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Gaming Laptops</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <img src="alienware.jpg" style="width:100%" height="400px">
+    <div class="text">Dell AlienWare Series</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <img src="rog.jpg" style="width:100%" height="400px">
+    <div class="text">ASUS ROG Gaming Laptop</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <img src="strix.jpg" style="width:100%" height="400px">
+    <div class="text">Asus STRIX Gaming Laptop</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <img src="legion.png" style="width:100%" height="400px">
+    <div class="text">Lenovo Legion Gaming Laptop</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>Dell AlienWare 13</h2>
+<p><img class="large" src="alienware.jpg" alt="HP Laptops"/></p>
+    <p><h3>Specs:</h3><ul>
+        <li>Intel<sup>R</sup> Core<sup>TM</sup> i7-7700HQ</li>
+    <li>Windows 10 Home<br></li>
+    <li>NVIDIA<SUP>R</SUP> GeForce<sup>R</sup> GTX 1060</li>
+    <li>Up to 32GB DDR4 at 2400MHz</li>
+        <li>Cost: USD 1299</li>
+
+        </ul></p>
+    </section>
+<section>
+<h2> Dell AlienWare 15 </h2>
+<p><img class="large" src="alienware.jpg" alt="Smartphones"/></p>
+    <p><h3>Specs:</h3><ul>Intel<sup>R</sup> Core<sup>TM</sup> i7-7820HK </li>
+    <li>Windows 10 Home</li>
+    <li>Up to NVIDIA<sup>R</sup> GeForce<sup>R</sup> GTX 1080</li>
+    <li>Up to 32GB Dual Channel DDR4 at 2400MHz</li>
+    <li>Cost: USD 1199</li>
+    </ul>
+</section>
+        
+<section>
+<h2> Dell AlienWare 17</h2>
+<p><img class="large" src="alienware.jpg"cbook alt="ElectricNews"/></p>
+    <p><h3>Specs:</h3><ul>
+    <li>Intel<sup>R</sup> Core<sup>TM</sup> i7-7280HK Processor </li>
+    <li>Windows 10 Home<br></li>
+    <li>Up to NVIDIA<sup>R</sup>GeForce<SUP>R</SUP> GTX 1080 with 8GB GDDR5</li>
+ 
+    <li>Up to 32GB Dual Channel DDR4 at 2400MHz</li>
+    <li>Cost: USD 1299</li>
+    </ul></p>
+    
+</section>
+
+<section>
+<h2> ASUS ROG G752VS</h2>
+    
+<p><img class="large" src="rog.jpg" alt="home"/></p>
+    <P> <h3>Specs:</h3><ul>
+        <liIntel<sup>R</sup> 6820HK processor</li>
+    <li>Windows 10 Home/Pro</li>
+    <li> NVIDIA<SUP>R</SUP> GeForce GTX 1070 with 8GB RAM</li>
+    <li>1TB HDD </li>
+    <li>Cost: USD 2500</li>
+        </ul></P>
+  
+</section>
+    <section>
+        <h2>ASUS ROG GL502V5</h2>
+        <p><image class="large" src="rog.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+        <li>Intel<sup>R</sup> Core<sup>TM</sup> i7 6700hq processor</li>
+        <li>Windows 10 Home/Pro</li>
+        <li>Intel<sup>R</sup> HM170 Chipset</li>
+        <li>Nvidia<sup>R</sup> GeForce wit 8GB RAM</li>
+        <li>Cost: USD 2699 onwards</li>
+        </ul>
+    </section>
+             <section>
+        <h2>ASUS  Strix GL503</h2>
+        <p><image class="large" src="strix.jpg" alt="gaming Laptops"/></p><br>
+        <p> <h3>Specs:</h3><ul>
+                 <li>Intel<sup>R</sup> Core<sup>TM</sup> i7 7700HQ Processor, </li>
+                 <li>Windows 10 Home/PRO</li>
+                 <li>Intel<sup>R</sup> HM175 Chipset</li>
+        <li>NVIDIA<SUP>R</SUP> GeFORCE GTX 1050</li>
+        <li>2GB/4GB/3GB/6GB RAM</li>
+                 <li>Cost: USD 1099</li>
+                 </ul></P>
+            
+    </section>
+                  <section>
+        <h2>Lenovo Legion Y920</h2>
+        <p><image class="large" src="legion.png" alt="gaming Laptops"/></p>
+        <p>  <h3>Specs:</h3><ul>
+                      <li>Intel<sup>R</sup> Core<sup>TM</sup> i7 processor</li>
+                      <li> Windows 10 Home </li>
+                      <li>Up to 64 GB memory</li>
+                      <li>NVIDIA <sup>R</sup>GeForce<sup>R</sup> 1070 8GB DDR5 graphics</li>
+                      <li>Cost: USD 2699</li>
+                      </ul></P>
+            
+            </section>
+        
+<section>
+        <h2>Lenovo Legion Y720 </h2>
+        <p><image class="large" src="legiony.png" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+    <liIntel<sup>R</sup>Core<sup>TM</sup> i7 processor</li>
+        <li>NVIDIA <sup>R</sup>GeForce<sup>R</sup> 1060 8GB DDR5 graphics</li>
+        <li>Windows 10 Home </li>
+        <li>Up to 16 GB DDR4 memory</li>
+<li>Cost: USD 2799</li>
+    </ul></P>
+
+            </section>
+            <section>
+        <h2> Lenovo Legion Y520</h2>
+                
+        <p><image class="large" src="legionyy.png" alt="gaming Laptops"/></p>
+        <p><h3>Specs:</h3><ul>
+                <li>Intel<sup>R</sup> Core<sup>TM</sup>i7  Processor</li>
+                <li>Windows 10 Home</li>
+                <li>NVIDIA <sup>R</sup>GeForce<sup>R</sup> 1060 3GB DDR5 graphics</li>
+                <li>Up to 16 GB DDR4 memory</li>
+                <li>Cost: USD 976 </li>
+                </ul></P>
+            
+            </section>
+        
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+     <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>

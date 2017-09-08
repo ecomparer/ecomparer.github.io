@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hewlett and Packard</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>Hewlett and Packard</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav class="nav-class">
+<ul>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\index.html">Home</a></li>
+<li class="laptop"><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\laptops.html">Laptops</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\phones.html">Phone</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <img src="hp.jpg" style="width:100%" height="400px">
+    <div class="text">Compare HP LAPTOPS</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <img src="SPECTRE.png" style="width:100%" height="400px">
+    <div class="text">HP SPECTRE</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <img src="PAVILION.png" style="width:100%" height="400px">
+    <div class="text">HP PAVILIONs</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <img src="360.png" style="width:100%" height="400px">
+    <div class="text">HP ENVY x360</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <img src="OMEN.png" style="width:100%" height="400px">
+    <div class="text">OMEN by HP</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>HP ENVY 13</h2>
+<img class="medium" src="HPENVY13.png" alt="HP Laptops"/>
+    <p><h3>Specs:</h3>
+        <ul><li>Windows 10</li>
+<li>Intel<SUP>R</SUP> Core<sup>TM</sup> processors</li>
+<li>Ultra-slim notebook at just 12.9mm</li>
+<li>Impossibly thin. Enviably engineered.</li>
+            <li>Cost: Rs. 64,990</li>
+        </ul>
+</p>
+    
+</section>
+    
+<section>
+<h2>HP ENVY 15</h2>
+<p><img class="medium" src="HPENVY15.png" alt="Smartphones"/></p>
+    <p> <h3>Specs:</h3>
+    <ul>
+    <li>Windows 10 and other operating systems available</li>
+  <li>Intel<sup>R</sup> Core<sup>TM</sup> i7 Processors</li>
+ <li>15-inch Display</li>
+ <li>Bang AND Olufsen audio available</li>
+        <li>Cost:Rs 22999 onwards</li>
+        </p>
+        </ul>
+   
+</section>
+        
+<section>
+<h2>HP ENVY 17</h2>
+<p><img class="medium" src="HPENVY17.png" alt="ElectricNews"/></p>
+    <p><h3>Specs</h3>
+    <ul></ul>
+    <li>Windows 10 </li>
+        <li>Intel® Core™ i7 Processors</li>
+        <li>17-inch display</li>
+        <li>Impressive screen real estate and desktop power from anywhere in your home.</li>
+    <li>Cost:Rs 95500 onwards</li></p>
+</section>
+<section>
+<h2>HP PAVILION 15</h2>
+<p><img class="medium" src="PAVILION15.png" alt="HP Laptops"/></p>
+    <p><h3>Specs</h3>
+    <ul>
+        <li>Windows 7 Professional 64</li>
+        <li>Intel® Core™ i3 Processor</li>
+    <li>15-inch display</li>
+<li>Full-size keyboard with 10-keypad on the right</li>
+        <li>Cost:RS 60,639</li></p>
+   </ul>
+</section>
+<section>
+<h2>HP PAVILION 17</h2>
+    
+<p><img class="medium" src="PAVILION.png" alt="home"/></p>
+    <P><h3>Specs:</h3>
+        <ul>
+            <li>>Windows 10 </li>
+            <li>Intel® Core™ i5 Processor</li>
+            <li>17-inch display</li>
+            <li>B AND O Audio available</li>
+            <li>COST:USD 439.99</li></P>
+    </ul>
+</section>
+    <section>
+        <h2>HP SPECTRE</h2>
+        <p><image class="medium" src="SPECTRE.png" alt="gaming Laptops"/></p>
+        <P> <h3>Specs:</h3>
+        <ul>
+            <li>Windows 10</li>
+<li>6th generation Intel® Core™ i5 and i7 processors</li>
+<li>FHD IPS display</li>
+<li>SSD </li>
+            <li>Cost:USD 1169</li></P>
+    </ul>
+            
+    </section>
+             <section>
+        <h2>HP CHROME</h2>
+        <p><image class="medium" src="CHROMEBOOK.png" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+                 <ul>
+                     <li>Chrome operating system</li>
+<li>Available with 11 AND 14-inch displays</li>
+<li>Intel® Core™ processors</li>
+<li>Store up to 100GB.</li>
+                 <li>Cost: USD 279.99</li></ul></P>
+            
+    </section>
+                  <section>
+        <h2>HP STREAM NOTEBOOK</h2>
+        <p><image class="medium" src="STREAM.png" alt="gaming Laptops"/></p>
+        <p><h3>Spces:</h3> 
+                      <ul>
+                          <li>Windows 8.1</li>
+<li>1TB of free cloud storage included for one year</li>
+<li>Office 365 Personal included free for 1 year</li>
+<li>Fanless design and flash storage</li>
+                          <li>Cost: USD 219</li></ul></P>
+        </section>
+        
+<section>
+        <h2>OMEN by HP</h2>
+        <p><image class="medium" src="OMEN.png" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+    <li>Windows 10</li>
+<li>Intel® Core™ i7 processor</li>
+<li>NVIDIA GeForce GTX 960M or 965M Graphics Card</li>
+<li>Optional 4K IPS Display</li>
+    <LI> Cost: USD 1479.88</LI></ul></P>
+            
+            </section>
+            <section>
+        <h2>HP SPECTRE x2</h2>
+        <p><image class="medium" src="x2.png" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+                <ul>
+                    <li>Windows 10</li>
+<li>Intel® 6th generation Core™ M Processor</li>
+<li>Premium 2-in-1 experience</li>
+<li>Our thinnest detachable separates from all others</li>
+                <li>Cost: USD 799.99</li></ul></P>
+            
+            </section>
+         <section>
+        <h2>HP LAPTOP</h2>
+        <p><image class="medium" src="HPLAPTOP.png" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+             <ul>
+                 <li>Windows 7 Professional 64</li>
+                 <li>Intel® Core™ i3 Processor</li>
+                 <li>15-inch display</li>
+                 <li>Full-size keyboard with 10-keypad on the right.</li>
+             <li> Cost: USD(not specified) </li></ul> </P>
+                     
+            </section>
+            <section>
+            <h2>HP ENVY x 360</h2>
+        <p><image class="medium" src="360.png" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+                <ul>
+                    <li>Windows 10.</li>
+                    <li>Intel Core i5 and i7 processors available.</li>
+                    <li>360-degree hinge for ultimate flexibility</li>
+                    <li>Easily converts into stand, tent, or tablet mode</li>
+                <li>Cost: USD 779.99</li></ul></P>
+           
+            </section>
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+     <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>

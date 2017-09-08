@@ -1,0 +1,244 @@
+php<!DOCTYPE html>
+<html>
+<head>
+<title>Apple MacBooks</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>MacBooks</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav class="nav-class">
+<ul>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\index.html">Home</a></li>
+<li class="laptop"><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\laptops.html">Laptops</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\phones.html">Phone</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <img src="apple.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Apple MacBooks</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <img src="imac21.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Apple iMacs</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <img src="macbook.jpg" style="width:100%" height="400px">
+    <div class="text">MacBook</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <img src="macbookpro13.jpg" style="width:100%" height="400px">
+    <div class="text">MacBook Pro</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <img src="macbookair1.jpg" style="width:100%" height="400px">
+    <div class="text">MacBook Air</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>MacBook </h2>
+<p><img class="medium" src="macbook.jpg" alt="HP Laptops"/></p>
+    <p><h3>Specs:</h3><ul>
+        <li>12-inch (diagonal) LED-backlit Retina display</li>
+<li>1.2GHz dual-core Intel Core m3, 1.3GHz dual-core Intel Core i5, or 1.4GHz dual-core</li> 
+        <li>Intel Core i7 processor</li>
+        <li>Turbo Boost up to 3.6GHz</li>
+        <li>Cost:USD 1299</li></ul>
+
+
+</p>
+    </section>
+<section>
+<h2>MacBook Air 13-inch</h2>
+<p><img class="medium" src="macbookair1.jpg" alt="Smartphones"/></p>
+    <p><h3>Specs:</h3><ul>
+    <li>13.3-inch (diagonal) LED-backlit widescreen display</li>
+    <li>1.8GHz dual-core Intel Core i5 or 2.2GHz dual-core Intel Core i7 processor</li>
+    <li>Up to 12 hours battery life</li>
+    <li>Up to 512GB SSDul</li>
+    <li>Cost:USD 999</li></ul>
+        
+   
+</section>
+        
+<section>
+<h2>MacBook Pro 15-inch</h2>
+<p><img class="medium" src="macbookpro15.jpg"cbook alt="ElectricNews"/></p>
+    <p><h3>Specs:</h3><ul>
+    <li>15.4-inch (diagonal) LED-backlit Retina display</li>
+<li>2.2GHz, 2.5GHz, or 2.8GHz quad-core Intel Core i7 processor</li>
+<li>Turbo Boost up to 4.0GHz</li>
+<li>Up to 9 hours battery life</li>
+    <li>Up to 1TB SSD</li>
+    <li>Cost: USD 2499</li></ul><p>
+    </p>
+   
+</section>
+
+<section>
+<h2>MacBook Pro 13-inch</h2>
+    
+<p><img class="medium" src="macbookpro13.jpg" alt="home"/></p>
+    <P><h3>Specs:</h3>
+        <ul>
+            <li>113.3-inch (diagonal) LED-backlit Retina display</li>
+            <li>2.3GHz dual-core Intel Core i5 or 2.5GHz dual-core Intel Core i7 processor</li>
+            <li>Turbo Boost up to 4.0GHz</li>
+            <li>Up to 10 hours battery life</li>
+            <li>Cost: USD 1299</li>
+        </ul></P>
+    
+</section>
+    <section>
+        <h2>MacBook Pro 13-inch(touch) </h2>
+        <p><image class="medium" src="macbookpro13.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+        <ul>
+            <li>Touch Bar and Touch ID</li>
+            <li>13.3-inch (diagonal) LED-backlit Retina display</li>
+            <li>3.1GHz or 3.3GHz dual-core Intel Core i5 or 3.5GHz dual-core Intel Core i7 processor</li>
+            <li>Up to 10 hours battery life</li>
+        <li>Cost: USD 1299</li></ul>
+            
+ </P>
+           
+    </section>
+             <section>
+        <h2>MacBook Pro 15-inch(touch) </h2>
+        <p><image class="medium" src="macbookpro15.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+                 <li>Touch Bar and Touch ID</li>
+                 <li>15.4-inch (diagonal) LED-backlit Retina display</li>
+                 <li>2.8GHz, 2.9GHz, or 3.1GHz quad-core Intel Core i7 processor</li>
+                 <li>Up to 10 hours battery life</li>
+                 <li>Up to 2TB SSD2</li>
+                 <li>Force Touch trackpad</li>
+                 <li>Cost: USD 1299</li></ul>
+
+            
+    </section>
+                  <section>
+        <h2>iMac 21.5 inch</h2>
+        <p><image class="medium" src="imac21.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+                      <li>21.5-inch (diagonal) LED-backlit display</li>
+<li>2.3GHz dual-core Intel Core i5 processor</li>
+<li>Turbo Boost up to 3.6GHz</li>
+<li>1TB 5400-rpm hard drive; 1TB Fusion Drive; or 256GB SSD</li>
+                      <li>Cost: USD 1099</li> </ul>
+            
+            
+            </section>
+        
+<section>
+        <h2>iMac 21.5 inch (4K) </h2>
+        <p><image class="medium" src="imac4k.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+    <ul>
+        <li>21.5-inch (diagonal) LED-backlit Retina 4K display</li>
+<li>3.0GHz or 3.4GHz quad-core Intel Core i5 or 3.6GHz quad-core Intel Core i7 processor</li>
+<li>Turbo Boost up to 4.2GHz</li>
+<li>1TB 5400-rpm hard drive; 1TB Fusion Drive; or up to 1TB SSD</li>
+        <I>Cost:USD 1299</I>
+</ul>
+            
+            </section>
+            <section>
+        <h2> iMac 27 inch</h2>
+        <p><image class="medium" src="imac27.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3>
+                <ul>
+                    <li>27-inch (diagonal) LED-backlit Retina 5K display</li>
+<li>3.4GHz, 3.5GHz, or 3.8GHz quad-core Intel Core i5 or 4.2GHz quad-core Intel Core i7 processor</li>
+<li>Turbo Boost up to 4.5GHz </li>
+<li>1TB, 2TB, or 3TB Fusion drive; or up to 2TB SSD</li>
+                    <LI>Cost: USD 1799</LI>
+                    </ul>
+</P>
+            
+            </section>
+        
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+     <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>

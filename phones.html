@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phones</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>Phones</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav>
+<ul>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\index.html">Home</a></li>
+<li><a href="C:.\Users\MISHAAL\Documents\Mishaal Website Folders\Html\laptops.html">Laptops</a></li>
+<li class="selected">Phone</li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <center><img src="oneplus5.jpeg" style="width:100%" height="400px" class="medium"></center>
+    <div class="text">The all new OnePlus 5</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>.
+    <center><img src="samsung.jpg" style="width:100%" height="400px" class="medium"></center>
+    <div class="text">Compare Samsung Smartphones</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <center><img src="iphones.jpg" style="width:100%" height="400px" class="medium"></center>
+    <div class="text">Compare Apple Iphones</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <center><img src="lenovos.jpg" style="width:100%" height="400px" class="medium"></center>
+    <div class="text">Compare Lenovo Smartphones</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <center><img src="zenfone.jpg" style="width:100%" height="400px"class="medium"></center>
+    <div class="text">Compare Asus Zenfones</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <center><img src="google.jpg" style="width:100%" height="400px" class="medium"></center>
+    <div class="text">Google Pixel</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>Google Pixel</h2>
+<p><img class="small" src="google.jpg" alt="HP Laptops"/></p>
+    
+<p>Google is an American multinational technology company that specializes in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware. Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, in California.  </p>
+    <p><A HREF="google.html">CHECK OUT Google Pixel 1 and 2 HERE....</A></p>
+</section>
+<section>
+<h2>Apple Iphones</h2>
+<p><img class="small" src="iphones.jpg" alt="Apple Macbooks"/></p>
+    <p>iPhone is a line of smartphones designed and marketed by Apple Inc. They run Apple's iOS mobile operating system. The first generation iPhone was released on June 29, 2007, and there have been multiple new hardware iterations since.
+
+The user interface is built around the device's multi-touch screen, including a virtual keyboard. The iPhone has Wi-Fi and can connect to cellular networks.</p>
+    <p><A HREF="iphone.html">CHECK OUT Apple Iphones HERE....</A></p>
+</section>
+<section>
+<h2>One Plus</h2>
+<p><img class="small" src="oneplus5.jpeg" alt="Dell Laptops"/></p>
+    <p>OnePlus (Chinese: 一加科技; pinyin: Yījiā Kējì) is a Shenzhen based Chinese smartphone manufacturer founded by Pete Lau (CEO) and Carl Pei in December 2013. It is headquartered in Guangdong. The company serves 42 countries and regions around the world as of March 2016. They have released 6 phones, amongst other products.
+    One Plus has released its latest smartphones the much waited, One Plsu 5. Checkuout the specs of all the so far released one plus phones in the link below.</p>
+    <p><A HREF="oneplus.html">CHECK OUT OnePlus Smartphones HERE.....</A></p>
+</section>
+<section>
+<h2>Samsung</h2>
+<p><img class="small" src="samsung.jpg" alt="HP Laptops"/></p>
+    <p>Samsung Electronics Co., Ltd. (Korean: 삼성전자; Hanja: 三星電子 (Literally "tristar electronics")) is a South Korean multinational electronics company headquartered in Suwon, South Korea.[1] Through extremely complicated ownership structure with some circular ownership,[3] it is the flagship company of the Samsung Group, accounting for 70% of the group's revenue in 2012.[4] It is the world's second largest information technology company by revenue after Apple.[5] Samsung Electronics has assembly plants and sales networks in 80 countries and employs around 370,000 people.[6] Since 2012, Kwon Oh-hyun has served as the company's CEO.</p>
+    <p><A HREF="samsung.html">CHECK OUT Samsung Smartphones HERE....</A></p>
+</section>
+<section>
+<h2>Asus</h2>
+    
+<p><img class="small" src="zenfone.jpg" alt="Asus Laptops"/></p>
+    <P>AsusTek Computer Inc. (stylised as ASUSTeK or ΛSUS) is a Taiwanese multinational computer and phone hardware and electronics company headquartered in Beitou District, Taipei, Taiwan. Its products include desktops, laptops, netbooks, mobile phones, networking equipment, monitors, WIFI routers, projectors, motherboards, graphics cards, optical storage, multimedia products, peripherals, wearables, servers, workstations, and tablet PCs. The company is also an original equipment manufacturer (OEM).
+
+Asus is the world's 4th-largest PC vendor by 2015 unit sales.</P>
+    <p><A HREF="zenfone.html">CHECK OUT Asus Zenfones HERE....</A></p>
+</section>
+    <section>
+        <h2>Lenovo</h2>
+        <p><image class="small" src="lenovos.jpg" alt="gaming Laptops"/></p>
+        <p> Lenovo Group Ltd. or Lenovo PC International or shortened as Lenovo is a Chinese multinational technology company with headquarters in Beijing, China and Morrisville, North Carolina. It designs, develops, manufactures and sells personal computers, tablet computers, smartphones, workstations, servers, electronic storage devices, IT management software, and smart televisions. Since 2013, Lenovo is the world's largest personal computer vendor by unit sales. It markets the ThinkPad line of notebook computers, IdeaPad and Yoga lines of notebook laptops, and the IdeaCentre and ThinkCentre lines of desktops. </p>
+        
+        <p><A HREF="lmobiles.html">CHECK OUT Lenovo And Motorola Smartphones HERE....</A></p>
+    </section>
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+     <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>

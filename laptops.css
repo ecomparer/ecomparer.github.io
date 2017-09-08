@@ -1,0 +1,313 @@
+/* set sizing to border method */
+html {
+    box-sizing:border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/* set maximum and minimum widths for the body and centre within the viewprt */
+body {
+    background-image: url('mountain.jpg');
+    font-family: sans-serif
+   margin: 0px;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+/* adding background */
+
+html {
+    
+}
+/* header */
+
+header {
+    border: 2px solid white;
+   background-color: #0099e5;
+    border-radius: 20px;
+ 
+    margin-right: -875px;
+     }
+header p {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+header h6 {
+    font-size: 16px;
+    text-align: right;
+}
+/* SEARCH BOX*/
+.search-box-wrapper {
+    display: inline-flex;
+    font-size: 30px;
+    
+}
+
+.search-box-input {
+    font-size: inherit;
+    border: 0.2em solid orange;
+    border-radius: 0.5em 0 0 0.5em;
+    padding: 0.5em 0.7em;
+    outline: 0;
+    object-position: center;
+}
+
+.search-box-input:hover,
+.search-box-input:focus {
+    border-color: orange;
+}
+
+.search-box-button {
+    font-size: inherit;
+    border: 0.2em solid orange;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: orange;
+    border-left: 0px;
+    padding: 0 1.75em;
+    color: orange;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    object-position: center;
+    float: center;
+}
+
+.search-box-button:hover,
+.search-box-button:focus {
+    border-color: orange;
+    background-color: orange;
+}
+
+/* menu */
+nav ul {
+    list-style-type: none;
+    background-color: orange;
+    border: 2px solid #0099e5;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 16px;
+     margin-left: auto;
+    margin-right: auto;
+    position: relative;
+     }
+nav ul li {
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+    padding-left: 8px;
+    position: inherit;
+}
+nav ul li:last-child {
+    border-right: none;
+    color: #111111
+        position: inherit;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #111111;
+    position: inherit;
+}
+nav li.selected {
+    color: #606060;
+    position: inherit;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+article {
+    background-color: whitesmoke;
+    border: 2px solid beige;
+    border-radius: 20px;
+    opacity: 0.7;
+    margin-right: -875px;
+    margin-top: 10px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: bold 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+    
+    /* On smaller screens, decrease text size */
+
+}
+/* laptop company names */
+section {
+    background-color: silver;
+    border: 2px solid Beige;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    min-height: 320px;
+    padding-left: 24px;
+    padding-right: 24px;
+   float: left;
+    margin-top: 0px;
+  width: 30%;
+ margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: monospace;
+  }
+    section.h2 {
+        text-decoration-style: none;
+    }
+
+/* aside section */
+aside{
+     margin-left: auto;
+    margin-right: auto;
+    background-color: silver;
+    border: 2px solid beige;
+    border-radius: 30px;
+    float:right;
+    margin-right: -500px;
+  }
+/* footer */
+footer {
+    background-color:#0099e5;
+    border: 2px solid Beige;
+    border-radius: 10px;
+    clear: both;
+    margin-right: -875px;
+}
+footer p.copyright {
+    float: left;
+    margin-top: 0px;
+}
+footer p.contact {
+    text-align: right;
+}
+/*small images are set to 200px in height */
+img.small {
+    float: left;
+    height: 200px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+/* medium images can be 50% of the containerelement's width */
+img.medium {
+    max-width: 360px;
+    width: 50%
+}
+/* large images are set to 100% of the container element's width */
+img.large {
+    width: 100%;
+}
+/* adding same style of borders to the elements which are to have borders */
+@media all and(min-width: 900px;) {
+    article {
+        float: left;
+        width: 66%;
+    }
+    aside {
+        float: left;
+        padding-left: 24px;
+        width: 34%;
+    }
+    footer {
+        clear: both;
+    }
+}

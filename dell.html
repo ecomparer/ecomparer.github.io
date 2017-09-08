@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dell</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>Dell Laptops</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav class="nav-class">
+<ul>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\index.html">Home</a></li>
+<li class="laptop"><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\laptops.html">Laptops</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\phones.html">Phone</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <img src="dell.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Dell Laptops</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <img src="xps13.jpg" style="width:100%" height="400px">
+    <div class="text">Dell XPS 13</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <img src="inspiron1.jpg" style="width:100%" height="400px">
+    <div class="text">Dell Inspiron Series</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <img src="vostro.jpg" style="width:100%" height="400px">
+    <div class="text">Dell Vostro Series</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <img src="xps15.jpg" style="width:100%" height="400px">
+    <div class="text">Dell XPS 15</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>Inspiron 11 3000</h2>
+<p><img class="small" src="inspiron1.jpg" alt="HP Laptops"/></p>
+    <p><h3>Specs:</h3>
+        <ul>
+            <li>Intel<sup>R</sup> Celeron<sup>R</sup> Processors</li>
+        <li>Windows 8 64 bit </li>
+<li>4GB DDR3L 1333MHz (4GB x 1)</li>
+        <li>500GB, 32GB SSD or eMMC, 64GB SSD or eMMC, 128GB SSD</li>
+            <li>Cost: USD 449.99</li>
+</ul>
+</p>
+    </section>
+<section>
+<h2> Inspiron 15 3000 </h2>
+<p><img class="small" src="inspiron15.jpg" alt="Smartphones"/></p>
+    <p><H3>Specs:</H3><ul>
+    <li>Intel<sup>R</sup> Pentium<sup>R</sup> Processor N3540 </li>
+    <li>Windows<sup>R</sup> 8.1 64 bit</li>
+    <li>Up to 4GB Single Channel DDR3L 1600 MHz memory</li>
+    <li>500 GB 5400 RPM</li>
+    <li>Cost:429.9</li>
+    </ul>
+</section>
+        
+<section>
+<h2> Inspiron 13 5000 </h2>
+<p><img class="small" src="inspiron13.jpg"cbook alt="ElectricNews"/></p>
+    <p><h3>Specs:</h3><ul>
+    <li>6th Generation Intel® Core™ i7-6500U Processor </li>
+    <li>Windows 10 Home</li>
+    <li>Up to 8 GB Single Channel DDR4 2133 MHz</li>
+    <li>Intel<sup>R</sup> HD Graphics 520</li>
+    <li>Cost:USD 599.99 onwards </li>
+    </ul>
+    </p>
+    
+</section>
+
+<section>
+<h2>Inspiron 17 5000 </h2>
+    
+<p><img class="small" src="inspiron17.jpg" alt="home"/></p>
+    <P><h3>Specs:</h3><ul>
+        <li>5th Generation Intel<sup>R</sup> Core<sup>TM</sup> i7-5500U Processor</li>
+        <li>Windows 10 Pro</li>
+        <li>Up to 16 GB Dual Channel DDR3L 1600 MHz memory</li>
+        <li>Up to 1TB </li>
+        <Li>Cost: USD 499.99 onwards </Li>
+        </ul>
+</P>
+    
+</section>
+    <section>
+        <h2>Inspiron 13 7000 </h2>
+        <p><image class="small" src="137.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+        <li>4th Generation Intel<sup>R</sup> Core<sup>TM</sup> i5</li>
+        <li>Windows<sup>R</sup> 8.1</li>
+        <li>4GB DDR3L 1066MHz </li>
+        <li>500GB 5400 rpm</li>
+        <li>Cost: USD 599.99 </li></ul>
+ </P>
+            
+    </section>
+             <section>
+        <h2>New XPS 13 </h2>
+        <p><image class="small" src="xps13.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+                 <li>5th Generation Intel® Core™ i7-5500U processor<li></li>
+<li>Windows 8.1 <li></li>
+            <li>4GB or 8GB Dual Channel DDR3L-RS SDRAM at 1600 MHz <li></li>
+            <li>128GB, 256GB or 512GB SSD<li></li>
+                 <li>Cost: USD 799</li></ul>
+</P>
+            
+    </section>
+                  <section>
+        <h2>XPS 15</h2>
+        <p><image class="small" src="xps15.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+                      <li>6th Generation Intel<sup>R</sup> Core<sup>TM</sup> i7-6500HQ Quad-Core processor </li>
+                      <li>Windows 10 Pro </li>
+                      <li>8GB, 16GB or 32GB </li>
+                      <li>NVIDIA GeForce<sup>R</sup> GTX<sup>TM</sup></li>
+                      <li>Cost: USD 2129</li>
+            </P></ul>
+            </section>
+        
+<section>
+        <h2>Vostro 14 5000 </h2>
+        <p><image class="small" src="vostro.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+    <li>Intel<sup>R</sup> 4th Generation Core<sup>TM</sup> i3- 4005U </li>
+            <li>Intel<sup>R</sup> 5th Generation Core<sup>TM</sup> i7- 5500U 
+            <li>Windows 8.1 </li>
+    <li>Linux<sup>R</sup>Ubuntu<sup>R</sup> pre-installed</li>
+    <li>Cost: USD 599.99 onwards </li></ul>
+</P>
+
+           
+            </section>
+            <section>
+        <h2> Inspiron 15 5000</h2>
+                
+        <p><image class="small" src="500.jpg" alt="gaming Laptops"/></p>
+        <p> <h3>Specs:</h3><ul>
+                <li>5th Generation Intel<sup>R</sup> Core<sup>TM</sup>i7-5500U Processor</li>
+            <li>Windows 10 Pro</li>
+            <li>Up to 16 GB Dual Channel DDR3L 1600 MHz memory</li>
+            <li>Up to 1TB Memory</li>
+                <li>Cost: USD 599.99</li></ul>
+</P>
+            <p><A HREF=".../electricnews.html">MORE ABOUT THIS Laptop HERE.....</A></p>
+            </section>
+        
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+     <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>

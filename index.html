@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link type="text/css" rel="stylesheet" href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\CSS\laptops.css" />
+    <style type="text/css">
+    background-image: url('mountain.jpg');
+        position: center;
+        background-repeat: no-repeat;
+        background-size: 800px;
+    </style>
+   </head>
+<body>
+ <header> 
+     <div class="header">
+<p>
+ <sup>E</sup>Comparer</p>
+<h6>Home</h6>
+     <div class="search-box-wrapper">
+     <input type="text" placeholder="Search..." class="search-box-input">
+         <button class="search-box-button">&#128269;</button>
+     </div> 
+   <nav>
+<ul>
+<li class="selected">Home</li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\laptops.html">Laptops</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\phones.html">Phone</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\electrinews.html">Electricnews</a></li>     
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\about us.html">About Us</a></li>
+<li><a href="C:\Users\MISHAAL\Documents\Mishaal Website Folders\Html\contact.html">Contact</a></li>
+</ul>
+</nav>
+     </div>
+     
+ </header>
+    <div class="group"></div>
+<article>
+<p><div class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1/5</div>
+    <img src="paintball.JPG" style="width:100%" height="400px">
+    <div class="text">Compare Phones and Laptops</div>
+    </div>
+   <div class="mySlides fade">
+    <div class="numbertext">2/5</div>
+    <img src="comparephones.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Various Phones</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3/5</div>
+    <img src="compare.jpg" style="width:100%" height="400px">
+    <div class="text">Compare Various Laptops</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4/5</div>
+    <img src="news.jpg" style="width:100%" height="400px">
+    <div class="text">ElectricNews</div>
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5/5</div>
+    <img src="contact.jpg" style="width:100%" height="400px">
+    <div class="text">Compntact us in Contact Page</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <section>
+<h2>Laptops</h2>
+<p><img class="small" src="hp.jpg" alt="HP Laptops"/></p>
+    
+<p>A laptop, often called a notebook or "notebook computer", is a small, portable personal computer with a "clamshell" form factor, an alphanumeric keyboard on the lower part of the "clamshell" and a thin LCD or LED computer screen on the upper part, which is opened up to use the computer. Laptops are folded shut for transportation, and thus are suitable for mobile use.[1] Although originally there was a distinction between laptops and notebooks, the former being bigger and heavier than the latter, as of 2014, there is often no longer any difference.
+</p>
+    <p><A HREF=".../laptops.html">CHECK OUT LAPTOPS HERE....</A></p>
+</section>
+<section>
+<h2>Phones</h2>
+<p><img class="small" src="phoneskk.jpg" alt="Smartphones"/></p>
+    <p>A smartphone is a mobile personal computer with a mobile operating system with features useful for mobile or handheld use. Smartphones, which are typically pocket-sized (as opposed to tablets, which are much larger than a pocket), have the ability to place and receive voice/video calls and create and receive text messages, have virtual assistants (such as Siri, Google Assistant, Alexa, Cortana, Bixby), an event calendar, a media player, video games, GPS navigation, digital camera and video camera. Smartphones can access the Internet through cellular frequencies or Wi-Fi and can run a variety of third-party software components ..</p>
+    <p><A HREF=".../phones.html">CHECK OUT SMartphones HERE....</A></p>
+</section>
+<section>
+<h2>ElectricNews</h2>
+<p><img class="small" src="news(1).jpg" alt="ElectricNews"/></p>
+    <p>Check out all the new, top and trending news in the electrical dimension by clicking on our electricnews page above or on the link below. Withh our ElectricNews page you will always be aware of the latest ndevelopment done in regard to gadgets adn also if there are any safety or security issues in any of the released or going-to release gadgets. Be always upto date on the latest and top trending news of today in the electric world. You will also hear abut some gadget non-related recent breakthroughs sometimes.To enter the news page click on the below. By the way dont forget to suggest any suggestion and post your own news in this page.</p>
+    <p><A HREF=".../electricnews.html">CHECK OUT ElectricNews HERE.....</A></p>
+</section>
+<section>
+<h2>Android Releases Android Oreo!</h2>
+<p><img class="small" src="oreo.jpg" alt="HP Laptops"/></p>
+    <p>Google pulled off one of the best marketing stunts in history on Monday, by taking advantage of the solar eclipse to announce a cool name for Android O. Android 8.0 is now officially known as Oreo, but as awesome as that may be, the sad fact is that most devices will not get it anytime soon. Unless you own a Pixel- or Nexus-branded gadget, then you’ll have to wait a while longer to get your hands on Oreo.That said, if you happen to rock one of the Google devices that can run Android 8.0, then you should know Google already posted on its Android Developers blog the download links for Oreo.</p>
+    <p><A HREF="LINK LOC">CHECK OUT More About Android O HERE....</A></p>
+</section>
+<section>
+<h2>Home</h2>
+    
+<p><img class="small" src="home.jpg" alt="home"/></p>
+    <P>All of us have had dilemmas when we have to choose between two or more laptops/smartphones, and you always wish that there would be a reliable specs and comparing website. Well, we had the same thought and we decided that we would make one, instead for waiting fro a long time fro another person to do so. A our website you can get detailed specs nad comparisons in each laptop detail by detail, so that you will mark us as reliable and will also be happy with our display. Dont forget to recommend this site to as many people as possible(family, friends, neighbours, colleagues, classmates etc.) .So welcome to our website! Leave your reviews at our contact page.</P>
+    <p><A HREF=".../index.html">CHECK OUT This Page Again HERE....</A></p>
+</section>
+    <section>
+        <h2>Gaming Laptops</h2>
+        <p><image class="small" src="gaming.jpg" alt="gaming Laptops"/></p>
+        <p> A gaming computer is a personal computer designed for playing computationally demanding video games. Due to the integration of common hardware components onto the motherboard since the 1990s, a modern gaming computer is comparable to a mainstream computer with the addition of a performance-oriented video card. Gaming computers are often associated with enthusiast computing due to an overlap in interests; however, while a gaming PC is built to achieve performance for actual gameplay, enthusiast PCs are built to maximize performance, using games as a real application benchmark. 
+    </section>
+        </article>
+    
+<aside>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3>ADS GO HERE</h3></section>
+<section>
+    <h3><a href="electricnewslink">Check out hot and trending news in the electric dimension</a></h3>
+    </section>
+    <section>
+    <h3>ADS GO HERE</h3></section>
+</aside>
+    <div>
+<footer>
+<p class="copyright">This site is not copyrigted YET! :)</p><br>
+    <center>Visit our about us page for copy-right notice and various other info.</center>
+<p class="contact">Contact:<a href="mailto:info@electricompare.com">info@electricompare.com</a></p>
+    </footer>
+    </body>
+</html>
