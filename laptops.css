@@ -48,6 +48,13 @@ header h6 {
     
 }
 
+/* SEARCH BOX*/
+.search-box-wrapper {
+    display: inline-flex;
+    font-size: 30px;
+    
+}
+
 .search-box-input {
     font-size: inherit;
     border: 0.2em solid orange;
@@ -82,7 +89,6 @@ header h6 {
     border-color: orange;
     background-color: orange;
 }
-
 /* menu */
 nav ul {
     list-style-type: none;
